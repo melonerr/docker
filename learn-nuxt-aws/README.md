@@ -67,3 +67,22 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+
+
+```bash
+# build docker image
+$ docker build -t image-name .
+
+# test run container
+$ docker run -it --rm -p {port yml}:{port Dockerfile} image-name
+# localhost:8080
+
+# push image to Docker hub
+$ docker tag image-name {name Docker hub}/image-name
+$ docker login
+$ docker push {name Docker hub}/image-name
+
+# Setting Container in AWS
+# Docs: https://aws.amazon.com/th/blogs/aws/lightsail-containers-an-easy-way-to-run-your-containers-in-the-cloud/
+
+```
