@@ -1,0 +1,1 @@
+2022/08/11 03:39:43 [error] 324#324: *5574 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: db.demo, request: "GET / HTTP/1.1", upstream: "http://192.168.1.133:8081/", host: "db.demo"

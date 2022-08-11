@@ -1,0 +1,8 @@
+2022/08/11 03:25:38 [alert] 306#306: 1024 worker_connections are not enough
+2022/08/11 03:25:38 [error] 306#306: *1816 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2022/08/11 03:29:07 [warn] 306#306: 1024 worker_connections are not enough, reusing connections
+2022/08/11 03:29:07 [alert] 306#306: 1024 worker_connections are not enough
+2022/08/11 03:29:07 [error] 307#307: *3677 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "192.168.1.133", referrer: "http://192.168.1.133/"
+2022/08/11 03:34:08 [warn] 306#306: 1024 worker_connections are not enough, reusing connections
+2022/08/11 03:34:08 [alert] 306#306: 1024 worker_connections are not enough
+2022/08/11 03:34:08 [error] 307#307: *5544 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "127.0.0.1", referrer: "http://127.0.0.1/"
