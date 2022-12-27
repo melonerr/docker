@@ -1,0 +1,103 @@
+[
+    {
+        "masala": [
+            {"id":"m1","name":"Masala Magazine", "list": null},
+            {"id":"m2","name":"Masala Lite", "list": null},
+            {"id":"m3","name":"Masala Wedding Issue", "list": null},
+            {"id":"m4","name":"Masala Wedding Fair", "list": null},
+            {"id":"m5","name":"MasalaWeds", "list": null},
+            {"id":"m6","name":"Masala Events", "list": null},
+            {"id":"m7","name":"Digital", "list":[
+                {"id":"m8","name":"E-Newsletter"},
+                {"id":"m9","name":"Website"},
+                {"id":"m10","name":"Social Media"},
+                {"id":"m11","name":"Database"}
+            ] },
+            {"id":"m12","name":"Photography/Video", "list": null },
+            {"id":"m13","name":"Others", "list": null}
+        ],
+
+        "premier": [
+            {"id":"p1","name":"Hotel Supplies",  "list":[
+                {"id":"p2","name":"Menu Covers"},
+                {"id":"p3","name":"In Room Amenities"},
+                {"id":"p4","name":"Front Office"},
+                {"id":"p5","name":"Others"}
+            ] },
+            {"id":"p6", "name":"Gifts", "list": null},
+            {"id":"p7", "name":"Mooncakes", "list": null},
+            {"id":"p8", "name":"Packaging", "list": null},
+            {"id":"p9", "name":"Printing", "list": null},
+            {"id":"p10","name":"Digital", "list":[
+                {"id":"p11","name":"E-Newsletter"},
+                {"id":"p12","name":"Website"},
+                {"id":"p13","name":"Social Media"},
+                {"id":"p14","name":"Database"}
+            ] },
+            {"id":"p15","name":"Photography/Video", "list": null},
+            {"id":"p16","name":"Writing Services", "list": null},
+            {"id":"p17","name":"Graphic Arts", "list": null},
+            {"id":"p18","name":"Others", "list": null}
+        ]
+    },
+    {
+        "industry": [
+            {"id":"In1", "name":"Hotels" },
+            {"id":"In2", "name":"Restaurants" },
+            {"id":"In3", "name":"Food/Beverage" },
+            {"id":"In4", "name":"Education" },
+            {"id":"In5", "name":"Real Estate" },
+            {"id":"In6", "name":"Hospitals" },
+            {"id":"In7", "name":"Finance" },
+            {"id":"In8", "name":"MICE" },
+            {"id":"In9", "name":"Tourism" },
+            {"id":"In10","name":"Fashion" },
+            {"id":"In11","name":"Others" }
+        ]
+    },
+    {
+        "locations": [
+            {"id":"re1", "name":"Bangkok", "list":[
+                {"id":"pr1", "name":"Bangkok"}
+            ]},
+            {"id":"re2", "name":"North", "list":[
+                {"id":"pr2", "name":"Chiang Mai"},
+                {"id":"pr3", "name":"Chiang Rai"}
+            ]},
+            {"id":"re3", "name":"South", "list":[
+                {"id":"pr4", "name":"Phuket"},
+                {"id":"pr5", "name":"Krabi"},
+                {"id":"pr6", "name":"Samui"},
+                {"id":"pr7", "name":"Phang Nga"},
+                {"id":"pr8", "name":"Surat Thani"},
+                {"id":"pr9", "name":"Trang"}
+            ]},
+            {"id":"re4", "name":"East", "list":[
+                {"id":"pr10", "name":"Prachin Buri"},
+                {"id":"pr11", "name":"Chonburi"},
+                {"id":"pr12", "name":"Chanthaburi"},
+                {"id":"pr13", "name":"Rayong"},
+                {"id":"pr14", "name":"Trat"}
+            ]},
+            {"id":"re5", "name":"West", "list":[
+                {"id":"pr15", "name":"Prachuap Khiri Khan"},
+                {"id":"pr16", "name":"Phetchaburi"},
+                {"id":"pr17", "name":"Kanchanaburi"}
+            ]},
+            {"id":"re6", "name":"Central", "list":[
+                {"id":"pr18", "name":"Ayutthaya"},
+                {"id":"pr19", "name":"Saraburi"},
+                {"id":"pr20", "name":"Lopburi"}
+            ]}
+        ]
+    },
+    {
+        "contact_person":[
+            {"id":"cp1", "naem":"Owner"},
+            {"id":"cp2", "naem":"General Manager"},
+            {"id":"cp3", "naem":"Director of Sales & Marketing"},
+            {"id":"cp4", "naem":"Accountant"},
+            {"id":"cp5", "naem":"Others"}
+        ]
+    }
+]
